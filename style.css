@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root{
+    --primary-soft-red: hsl(10, 79%, 65%);
+    --primary-cyan: hsl(186, 34%, 60%);
+    --neutral-dark-brown: hsl(25, 47%, 15%);
+    --neutral-medium-brown: hsl(28, 10%, 53%);
+    --neutral-cream: hsl(27, 66%, 92%);
+    --neutral-pale-orange: hsl(33, 100%, 98%);
+    --weight-400: 400;
+    --weight-700: 700;   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: auto auto;
+    background-color: var(--neutral-cream);
+    font-family: "DM Sans", sans-serif;
+}
+
+header{
+    background-color: var(--primary-soft-red);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    color: var(--neutral-pale-orange);
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    
+}
+
+section{
+    padding: 1em;
+    text-align: left;
+    width: 90%;
+    padding: 1.5em;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: var(--neutral-pale-orange);
+}
+
+section h1{
+    color: var(--neutral-dark-brown);
+    font-weight: 600;
+}
+
+.bar-graph{
+    height: 300px;
+    border-bottom: 2px solid var(--neutral-cream);
+    margin-bottom: 1em;
+}
+
+section h3{
+    color: var(--neutral-medium-brown);
+    font-weight: var(--weight-400);
+    font-size: 1em;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--neutral-dark-brown);
+    padding-top: .5em;
+}
+
+.flexbox h1{
+    font-weight: var(--weight-700);
+    font-size: 2em;
+}
+
+.flexbox div{
+    text-align: right;
+    font-weight: var(--weight-400);
+}
+
+.flexbox div h3:first-of-type{
+    color: var(--neutral-dark-brown);
+    font-weight: var(--weight-700);
+}
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px){
+    body{
+        font-size: 12px;
+    }
+}
