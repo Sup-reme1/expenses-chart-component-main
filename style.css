@@ -53,7 +53,7 @@ section h1{
 }
 
 .bar-graph{
-    height: 300px;
+    /* height: 300px; */
     border-bottom: 2px solid var(--neutral-cream);
     margin-bottom: 1em;
 }
@@ -62,6 +62,15 @@ section h3{
     color: var(--neutral-medium-brown);
     font-weight: var(--weight-400);
     font-size: 1em;
+}
+
+canvas#myChart{
+    /* background: var(--neutral-pale-orange); */
+    padding: 1rem;
+    /* border: 1px solid var(--neutral-cream); */
+    /* width: 90%;  */
+    /* height: 90%; */
+    /* display: block; */
 }
 
 .flexbox{
